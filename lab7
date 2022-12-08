@@ -161,7 +161,7 @@ end;
 $$
 language plpgsql;
 
-select * from increasing(1, 'Ospan', '1988-03-06', 34, 1000, 6);
+select * from increasing(1, 'Serik', '1987-07-07', 34, 1000, 6);
 --b
 create or replace function inc2(id int, name varchar, date_of_birth date, age int, inout salary numeric, workexperience int, out discount numeric)
 as $$
