@@ -188,4 +188,4 @@ end;
 $$
 language plpgsql;
 
-select * from inc2(2, 'Simon', '1976-03-06', 46, 10000,16);
+select * from inc2(2, 'Alex', '1972-03-06', 50, 10000,20);
